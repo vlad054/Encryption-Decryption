@@ -164,7 +164,7 @@ class  encrdecrShift implements encrdecrMeth{
                 //System.out.println(pos+ " "+ newPos);
                 //System.out.println((newPos>=0)?newPos:alf.length()+newPos%26);
                 res = res + alf.charAt((newPos>=0)?newPos:alf.length()+newPos%26);
-                //System.out.println(res);
+                // /System.out.println(res);
             }
             else{
                 res=  res + str.charAt(i);
